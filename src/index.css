@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar {
+margin: 0;
+display: grid;
+grid-template-columns: 1fr 4fr;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul li a {
+  text-decoration-line: none;
+  color:black; 
+  font-size: 20px;
+  margin: 15px;
+  padding-left: 50px;
+}
+.navbar img {
+
+}
+
+/*-------------------------------------------pages--------------------------------*/
+
+.about {
+
+}
+
+.about img {
+  width: 100%;
+}
